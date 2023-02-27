@@ -7,7 +7,7 @@ const Timer = () => {
 
   useEffect(() => {
     return reset();
-  }, []);
+  });
 
   const start = () => {
     if (!timerId.current) {

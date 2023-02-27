@@ -6,7 +6,7 @@ const TimerWithDisable = () => {
 
   useEffect(() => {
     return () => reset();
-  }, []);
+  });
 
   const start = () => {
     if (!timerId) {
